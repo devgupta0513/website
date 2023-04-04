@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en" ;>
+
+<head>
+    <title>Dev Gupta Blog</title>
+    <meta charset="utf-8" />
+    <link href="css.css" type="text/css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="home">
+        <div class="item">
+            <img class="avtaar" src="images.jfif" />
+            <h1 class="heading1 txt-style"> Dev Gupta</h1>
+            <p style="color:#fff" class="txt-style">
+                Hey everyone ,This is Dev Gupta<br />
+                age of 19 year ,dreamer,believer and achiever
+            </p>
+        </div>
+    </div>
+    <div id="about">
+        <div class="aboutme">
+            <h1 class="heading2 txt-style" style="font-size: 30px;  text-align:center; ">ABOUT ME</h1>
+            <hr width="50px" style="margin-top: 0; ">
+            <p class="about_contant">
+                <img src="devgupta.jpg"
+                    style="width:auto;height:350px;margin-right:10%; float: left; border: 5px solid #fff ;">
+                i love web development<br> <br> Hey there, hope you liked the site ,<br> My name is Dev Gupta , a
+                student of AITR Indore and I have made an attempt to design this website, <br> this was a fruitful
+                attempt as I gained a good knowledge about web development.
+                Hope you liked my efforts
+
+            </p>
+        </div>
+    </div>
+    <div id="photos">
+        <div class="gallery_title">
+            <a class="heading2 txt-style">SERVICES</a>
+            <hr width="50px" style="margin-top: 2; ">
+            <p style="color:#fff; font-size: x-large;" class="txt-style">
+                To keep a customer demands as much skill as to win one
+            </p>
+        </div>
+        <img class="image" src="download22.jpg" alt="sniff">
+        <img class="image" src="download(1).jfif" alt="sniff">
+        <img class="image" src="download(2).jfif" alt="sniff">
+        <img class="image" src="cyber-attack_46706-315.jpg" alt="sniff">
+    </div>
+    <div id="contact">
+        <div class="container txt-style">
+            <form action="#" >
+                <h1>Contact me </h1>
+                <p>We are here to listen all your innovative dreams and help you to achieve them</p>
+                <hr>
+                <label for="fname"><b>Full Name</b></label> <br />
+                <input id="dev" type="text" placeholder="full name " name="fname" required>
+                <br />
+                <label for="mobn"><b>Number</b></label>
+                <br />
+                <input id="dev1" type="mobn" placeholder="Enter Number" name="mobn" required>
+                <label for="sb"><b>Subject</b></label>
+                <br />
+                <input id="dev2"  type="text" placeholder="Enter subject" name="sb" required>
+                <br />
+                <label for="msg"><b>message</b></label>
+                <br />
+                <textarea id="dev3"  name="msg" placeholder="Write something.." style="height:100px"></textarea>
+                <div class="clearfix">
+                    <button  onclick="yoyo()" class="signupbtn">Submit</button>
+                </div>
+      
+            </form>
+        </div>
+    </div>
+     <script src="dev.js"></script> 
+</body>
+
+</html>
