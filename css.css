@@ -1,0 +1,193 @@
+﻿body,html {
+    height: 100%;
+    margin: 0;
+     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+ul { 
+    list-style-type: none;   /*this tag is used to avoid dots in a list*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float:left;
+}
+
+   li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color:gray;
+        }
+
+.active {
+    background-color:grey;
+}
+
+
+#home {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-repeat: no-repeat;
+    /*  background-attachment: fixed;  */
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+#about {
+    background-color:#585858;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+.aboutme {
+    /* text-align:center; */
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding:30px;
+}
+.about_contant{
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+.item {
+    /*position: absolute;*/
+    padding-top: 10%;
+}
+
+.avtaar {
+    height: 250px;
+    width: 250px;
+}
+
+.heading1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+
+
+
+.heading2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+#photos {
+    background-image: url(https://bitsum.com/wp-content/uploads/dark-background-images-5561-5821-hd-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    color: #fff;
+    text-align: center;
+    background-attachment:fixed;
+}
+.gallery_title{
+
+    font-size: 25px;
+    padding-top: 25px;
+}
+.gallery_item{
+padding: 10px;
+
+}
+
+.image{
+    width: 300px;
+    height: auto; 
+    float: left;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 5%;
+} 
+
+
+#contact {
+    background-image: url(https://wallpaperaccess.com/full/3124511.jpg);
+    background-size: cover;
+    height: 100%;
+    padding-top: 5%;
+    align-content: center;
+    /*position: absolute;*/
+}
+
+
+input, textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #000000;
+}
+    input[type=text]:focus, input[type=mobn]:focus  {
+        background-color: #ddd;
+        outline: none;
+    }
+    #dev3:focus
+    {
+        background-color: #ddd;
+        outline: none;  
+    }
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+    button:hover {
+        opacity:1;
+        background-color:rgb(133, 208, 20);
+        font-weight:bolder;
+        font-size:medium;
+        font-style: italic;
+        
+        
+      
+    }
+
+/* Float cancel and signup buttons and add an equal width */
+
+
+/* Add padding to container elements */
+.container {
+    margin-left: 25px;
+    padding: 20px;
+    background-color: #505450;
+    width: fit-content;
+    color:#fff;
+    
+}
